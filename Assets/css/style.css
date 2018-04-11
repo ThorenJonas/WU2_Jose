@@ -1,3 +1,4 @@
+/*Navbar css*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -55,10 +56,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/*<!-- +========+ -->*/
 /*  Media */
-
+/* används för att göra sidan responsiv*/
 @media screen and (max-width: 600px){
     ul.main-navbar,
     ul.main-navbar li {float: none;}
 }
-/*<--------------->*/
+/*<!-- +========+ -->*/
