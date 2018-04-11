@@ -2,35 +2,41 @@
 <html lang="sv">
 <head>
       <!-- +| META data  |+ -->
-	<meta charset="utf-8"/>
-	<title>PHP-LabbX</title>
+      <meta charset="utf-8"/>
+      <title>Mall_posts.html</title>
       <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- +=================+ -->
 </head>
 <body>
       <!-- Sidan ska användas för att skriva och skicka inlägg-->
-	<header>
-		<h1>LabbX: Start</h1>
-	</header>
-
-	<nav>
-		<ul>
-			<li><a href="index.php">Start</a></li>
-			<li><a href="index.php?page=blogg">Blogg</a></li>
-			<li><a href="index.php?page=kontakt">Kontakt</a></li>
-		</ul>
-	</nav>
-
-	<div class="content">
-		<h2>Senaste inlägget</h2>
-		<p class="author">Författare: Gugge</p>
-		<p class="date">Datum: 2015-02-26</p>
-		<p class="message">Här kommer själva inlägget i sin helhet. Välkommen till Labb 3! Här övar vi på PHP för att bli duktiga webbserverprogrammerare. Detta är tredje labben och andra labben i en serie labbar som tillsammans bygger ihop detta projekt. Ett enkelt PHP-projekt men väl strukturerat och genomtänkt konstruerat.</p>
-		</div>
-
-	<footer>
-		<p>Vårt första PHP-projekt, Labb 2</p>
-	</footer>
+      <!-- |  Leftside  Top MAIN-NAVBAR   | -->
+      <ul class="main-navbar">
+            <li><a class="active" href="mall_blogg.html">Menu</a></li>
+            <!-- Dropdown navbars -->
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Nyheter & portfolio</a>
+                <div class="dropdown-content">
+                        <a href="#">Nyheter</a>
+                        <a href="#">Portfolio</a>
+                </div></li>
+            <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Blogg</a>
+                  <div class="dropdown-content">
+                  <a href="#">Senaste inläggen</a>
+                  <a href="#">Blogg-inlägg</a>
+                  <a href="mall_posts.html">Skapa nya inlägg</a>
+            </div></li>
+            <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Övrigt</a>
+                  <div class="dropdown-content">
+                  <a href="#">Gästbok</a>
+                  <a href="#">Kontakt info</a>
+            </div></li>
+            <li><a class="right" href="#">Login</a></li>
+            <!-- +=============+ -->
+      </ul>
+      <!-- +=================+ -->
+            <h2>Skapa nya inlägg</h2>
 </body>
 </html>
