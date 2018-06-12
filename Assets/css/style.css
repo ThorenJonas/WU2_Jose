@@ -56,7 +56,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+ ul. li.right {float: right;}
 /*<!-- +========+ -->*/
+.blogg_cards {
+       
+}
 /*  Media */
 /* används för att göra sidan responsiv*/
 @media screen and (max-width: 600px){
