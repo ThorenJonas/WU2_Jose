@@ -58,9 +58,10 @@ li.dropdown {
 }
  ul. li.right {float: right;}
 /*<!-- +========+ -->*/
-.blogg_cards {
-       
+.col-sm-4 {
+margin-top: 20px;
 }
+
 /*  Media */
 /* används för att göra sidan responsiv*/
 @media screen and (max-width: 600px){
